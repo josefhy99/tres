@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulário</title>
+</head>
+<body>
+
+    
+    <fieldset>
+        <legend>Formulário de Ordem e Serviço</legend>
+        <p>
+            <label>Nome</label>
+            <input type="nome" name= "nome" id="nome" placeholder="Digite seu nome">
+        </p>
+
+        <p>
+            <label>Classe</label>
+            <input type="sobrenome" name= "sobrenome" id="sobrenome" placeholder="Digite seu Sobrenome ">
+        </p>
+
+        <p>
+            <label>Peso</label>
+            <input type="Peso" name="peso" id="peso">
+        </p>
+
+        <p>
+            <label>Tipo de Objeto</label>
+            <label>Tipo de Objeto:</label>
+            <select id= "tipo de item">
+                <option value= "1">Motor</option>
+                <option value= "2">Rolamento</option>
+                <option value= "3">Torno Mecânico</option>
+                <option value= "4">Furadeira de Bancada</option>
+            </select>
+        </p>
+        <p>
+            <label>Códogo</label>
+            <input type="codG" name="codG" id="codG">
+
+        <p>
+            <label>Foto</label>
+            <input type="file" name="foto" class="btn btn-success"  accept="image/png, image/jpeg"  multiple />
+        </p>
+
+        <p>
+            <label>Em serviço desde</label>
+            <br>
+            <br>
+            <label>Ano</label>
+            <br>
+        
+            <input type="radio" name="anos" id="anos"> 2018
+            <input type="radio" name="anos" id="anos"> 2019
+            <br>
+            <input type="radio" name="anos" id="anos"> 2020
+            <input type="radio" name="anos" id="anos"> 2021
+            <br>
+            <br>
+            <p>
+                <label>Mês</label>
+                <br>
+                <input type="checkbox"name="serv" id="serv"> Jan
+                <input type="checkbox"name="serv" id="serv"> Fev
+                <input type="checkbox"name="serv" id="serv"> Mar
+                <br>
+                <input type="checkbox"name="serv" id="serv"> Abril
+                <input type="checkbox"name="serv" id="serv"> Maio
+                <input type="checkbox"name="serv" id="serv"> Jun
+                <br>
+                <input type="checkbox"name="serv" id="serv"> Jul
+                <input type="checkbox"name="serv" id="serv"> Agosto
+                <input type="checkbox"name="serv" id="serv"> Set
+                <br>
+                <input type="checkbox"name="serv" id="serv"> Out
+                <input type="checkbox"name="serv" id="serv"> Nov
+                <input type="checkbox"name="serv" id="serv"> Dez
+
+                <br>
+                <br>
+                   
+            </p>
+
+            <p>
+                <label>Tamanho e Dimensões:</label>
+                <input type="dim."name="dim" id="dim.">
+            </p>
+
+            <p>
+                <label>Número de Inventário</label>
+                <input type="num" name="num" id="num">
+            </p>
+            <p>
+                <label>Valor Aquis.:</label>
+                <input type="aqui" name="aqui" id="aqui">
+                <br>
+                <br>
+                <label>Data da aquis.</label>
+                <input type="data" name="data" id="data">
+            </p>
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+            <input type="reset" name="limpar" id="limpar" value="Enviar">
+
+        </p>
+    </fieldset>
+</body>
+</html>
